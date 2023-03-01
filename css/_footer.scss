@@ -1,0 +1,90 @@
+footer{
+    background: #636363;
+    .item{
+        .logo-wrapper{
+            display: flex;
+            align-items: center;
+            padding-top: 60px;
+            img{
+
+            }
+            h1{
+                color: #fff;
+                font-size: 55px;
+                margin-left: 32px;
+                font-weight: 700;
+            }
+        }
+        P{
+            color: #fff;
+            font-size: 17px;
+            padding-top: 44px;
+            margin: 0;
+            padding-bottom: 60px;
+        }
+    }
+    .contact{
+        .location{
+            margin-bottom: 20px;
+            a{
+                color: white;
+                font-size: 18px;
+                text-decoration: none;
+                margin-left: 10px;
+                font-weight: 500;
+                transition: all .3s ease;
+                &:hover{
+                    color: #ffc045;
+                }
+            }
+        }
+        .mail{
+            a{
+                color: white;
+                font-size: 18px;
+                text-decoration: none;
+                margin-left: 10px;
+                font-weight: 500;
+                transition: all .3s ease;
+                &:hover{
+                    color: #ffc045;
+                }
+            }
+        }
+    }
+    .lower{
+        p{
+            color: white;
+            margin: 0;
+            padding: 60px 0 30px 5px;
+        }
+    }
+}
+@media (max-width: 1199.98px){
+    footer .item .logo-wrapper h1{
+        font-size: 44px;
+        margin-left: 23px;
+    }
+}
+@media (max-width: 991.98px){
+    footer .item P{
+    padding-bottom: 40px;
+    }
+    footer .item .logo-wrapper h1{
+        font-size: 36px;
+    }
+}
+@media (max-width: 575.98px){
+    footer .item .logo-wrapper h1{
+        font-size: 30px;
+    }
+    footer .item P{
+        font-size: 15px;
+    }
+    footer .contact .location a{
+        font-size: 16px;
+    }
+    footer .contact .mail a{
+        font-size: 16px;
+    }
+}
